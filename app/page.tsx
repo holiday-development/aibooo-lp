@@ -19,6 +19,8 @@ import {
   ArrowRight,
   CheckCircle,
 } from 'lucide-react';
+// import nextConfig from '../next.config';
+// const BASE_PATH = nextConfig.basePath || '';
 
 export default function LandingPage() {
   const features = [
