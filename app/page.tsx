@@ -85,7 +85,7 @@ export default function LandingPage() {
               <span className="text-[#333333] font-bold text-sm">A</span>
             </div>
             <span className="text-2xl font-bold bg-gradient-to-r from-[#29e3a9] to-[#BFF728] bg-clip-text text-transparent">
-              Aiboo
+              Aibooo
             </span>
             <Badge
               variant="secondary"
@@ -348,7 +348,7 @@ export default function LandingPage() {
           <div className="w-6 h-6 bg-gradient-to-r from-[#29e3a9] to-[#BFF728] rounded-lg flex items-center justify-center">
             <span className="text-[#333333] font-bold text-xs">A</span>
           </div>
-          <span className="font-semibold text-white">Aiboo</span>
+          <span className="font-semibold text-white">Aibooo</span>
           <Badge
             variant="secondary"
             className="text-xs bg-gray-700 text-gray-300 border-gray-600"
@@ -357,7 +357,7 @@ export default function LandingPage() {
           </Badge>
         </div>
         <p className="text-sm">
-          © 2024 Aiboo. All rights reserved. |
+          © 2024 Aibooo. All rights reserved. |
           ベータ版につき、機能は予告なく変更される場合があります。
         </p>
       </footer>
