@@ -94,8 +94,11 @@ export default function LandingPage() {
               Beta
             </Badge>
           </div>
-          <Button className="bg-gradient-to-r from-[#29e3a9] to-[#BFF728] hover:from-[#22c794] hover:to-[#a8d623] text-[#333333] font-semibold">
-            <Download className="w-4 h-4 mr-2" />
+          <Button
+            size="xl"
+            className="bg-gradient-to-r from-[#29e3a9] to-[#BFF728] hover:from-[#22c794] hover:to-[#a8d623] text-[#333333] font-semibold"
+          >
+            <Download />
             ベータ版をダウンロード
           </Button>
         </div>
@@ -104,7 +107,7 @@ export default function LandingPage() {
       {/* Hero Section */}
       <section className="container mx-auto px-4 py-16 text-center">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-[#29e3a9] to-[#BFF728] bg-clip-text text-transparent">
+          <h1 className="leading-relaxed text-5xl md:text-6xl font-bold mb-8 bg-gradient-to-r from-[#29e3a9] to-[#BFF728] bg-clip-text text-transparent">
             文章改善が
             <br />
             こんなに簡単だったなんて
@@ -137,10 +140,10 @@ export default function LandingPage() {
           {/* 縦並びのCTAセクション */}
           <div className="flex flex-col items-center space-y-4 mb-12">
             <Button
-              size="lg"
+              size="xl"
               className="bg-gradient-to-r from-[#29e3a9] to-[#BFF728] hover:from-[#22c794] hover:to-[#a8d623] text-[#333333] font-semibold text-lg px-8 py-4 w-full max-w-sm"
             >
-              <Download className="w-5 h-5 mr-2" />
+              <Download />
               無料でベータ版を試す
             </Button>
             <p className="text-sm text-gray-400 max-w-md">
@@ -318,11 +321,11 @@ export default function LandingPage() {
             ベータ版は完全無料。文章作業が劇的に変わります。
           </p>
           <Button
-            size="lg"
+            size="xl"
             variant="secondary"
             className="text-lg px-8 py-3 bg-[#333333] text-white hover:bg-gray-700 border-0"
           >
-            <Download className="w-5 h-5 mr-2" />
+            <Download />
             無料でダウンロード
           </Button>
           <div className="flex justify-center items-center mt-6 space-x-6 text-sm opacity-80">
